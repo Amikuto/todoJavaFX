@@ -7,7 +7,7 @@ import java.util.Date;
 public class Task {
 
     LongProperty id;
-    ObjectProperty<Date> completionDate;
+    ObjectProperty<Date> complDate;
     StringProperty description;
     BooleanProperty status;
     StringProperty title;
