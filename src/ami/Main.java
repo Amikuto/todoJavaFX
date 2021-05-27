@@ -57,8 +57,8 @@ public class Main extends Application {
         rootLayout.setCenter(mainScene);
 
         MainSceneController mainSceneController = new MainSceneController();
-        fxmlLoader.setController(mainSceneController);
         mainSceneController.setMainApp(this);
+        fxmlLoader.setController(mainSceneController);
     }
 
     public boolean showLoginPage() throws IOException {
